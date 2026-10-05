@@ -450,7 +450,7 @@ const FORM_QUESTIONS = [
     text: "Tem pelo menos um bom amigo ou amiga",
     options: TORF,
     scale: "TORF",
-    reverse: false,
+    reverse: true,
     required: true
   },
   {
@@ -486,7 +486,7 @@ const FORM_QUESTIONS = [
     text: "Facilmente perde a concentração",
     options: TORF,
     scale: "TORF",
-    reverse: true,
+    reverse: false,
     required: true
   },
   {
@@ -504,7 +504,7 @@ const FORM_QUESTIONS = [
     text: "É gentil com crianças mais novas",
     options: TORF,
     scale: "TORF",
-    reverse: true,
+    reverse: false,
     required: true
   },
   {
@@ -513,7 +513,7 @@ const FORM_QUESTIONS = [
     text: "Frequentemente engana ou mente",
     options: TORF,
     scale: "TORF",
-    reverse: true,
+    reverse: false,
     required: true
   },
   {
@@ -540,7 +540,7 @@ const FORM_QUESTIONS = [
     text: "Pensa nas coisas antes de fazê-las",
     options: TORF,
     scale: "TORF",
-    reverse: false,
+    reverse: true,
     required: true
   },
   {
@@ -576,7 +576,7 @@ const FORM_QUESTIONS = [
     text: "Completa as tarefas que começa, tem boa concentração",
     options: TORF,
     scale: "TORF",
-    reverse: false,
+    reverse: true,
     required: true
   }
 ];
@@ -584,32 +584,32 @@ const FORM_QUESTIONS = [
 const INDICATORS_CONFIG = {
   total_de_dificuldades: {
     label: "total_de_dificuldades",
-    questions: ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25"],
+    questions: ["2","3","5","6","7","8","10","11","12","13","14","15","16","18","19","21","22","23","24","25"],
   },
  
   sintomas_emocionais: {
     label: "sintomas_emocionais",
-    questions: ["1","2","3","4","5"],
+    questions: ["3","8","13","16","24"],
   },
   problemas_de_condulta: {
     label: "problemas_de_condulta",
-    questions: ["6","7","8","9","10"],
+    questions: ["5","7","12","18","22"],
   
   },
   
   sintomas_de_hiperatividade: {
     label: "sintomas_de_hiperatividade",
-    questions: ["11","12","13","14","15"],
+    questions: ["2","10","15","21","25"],
   
   },
   problemas_com_colegas: {
     label: "problemas_com_colegas",
-    questions: ["16","17","18","19","20"],
+    questions: ["6","11","14","19","23"],
   
   },
   comportamento_pro_social: {
     label: "comportamento_pro_social",
-    questions: ["21","22","23","24","25"],
+    questions: ["1","4","9","17","20"],
   
   },
 
